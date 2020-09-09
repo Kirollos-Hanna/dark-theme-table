@@ -1,9 +1,89 @@
 <html>
-    <head>
-        <title>Create Task</title>
-        <link rel="stylesheet" href="create-task-style.css">
-    </head>
-    <body>
-        
-    </body>
+
+<head>
+    <title>Create Task</title>
+    <link rel="stylesheet" href="create-task-style.css">
+    <link rel="stylesheet" href="fontawesome-free-5.14.0-web\css\all.css">
+
+</head>
+
+<body>
+    <main class="menu">
+        <div class="header-content">
+            <h2>Create Tasks</h2>
+            <a href="#">X</a>
+        </div>
+        <div class="action-icons">
+            <i class="far fa-share-square"></i>
+            <i class="fas fa-chevron-circle-down"></i>
+        </div>
+        <form class="create-tasks-form" action="#">
+            <div class="left">
+                <label for="Store">
+                    <p>Store</p>
+                    <select name="Store" id="store">
+                        <option value="Asos">Asos</option>
+                        <option value="Asos">Asos</option>
+                        <option value="Asos">Asos</option>
+                    </select>
+                </label>
+                <label for="Size">
+                    <p>Size</p>
+                    <input type="text" placeholder="Size">
+                </label>
+                <label for="Profile">
+                    <p>Profile</p>
+                    <select name="Profile" id="profile">
+                        <option value="Test">Test</option>
+                        <option value="Test">Test</option>
+                        <option value="Test">Test</option>
+                    </select>
+                </label>
+                <label for="Account">
+                    <p>Account</p>
+                    <select name="Account" id="account">
+                        <option value="Select Account">Select Account</option>
+                        <option value="Select Account">Select Account</option>
+                        <option value="Select Account">Select Account</option>
+                    </select>
+                </label>
+            </div>
+            <div class="right">
+                <label class="product" for="Product">
+                    <p>Product</p>
+                    <i class="fa fa-search"></i>
+                    <input placeholder="Product" type="text">
+                </label>
+                <label for="Mode">
+                    <p>Mode</p>
+                    <select name="Mode" id="mode">
+                        <option value="Safe Mode">Safe Mode</option>
+                        <option value="Safe Mode">Safe Mode</option>
+                        <option value="Safe Mode">Safe Mode</option>
+                    </select>
+                </label>
+                <label for="Proxies">
+                    <p>Proxies</p>
+                    <select name="Proxies" id="proxies">
+                        <option value="Select Proxies">Select Proxies</option>
+                        <option value="Select Proxies">Select Proxies</option>
+                        <option value="Select Proxies">Select Proxies</option>
+                    </select>
+                </label>
+                <label class="last-label" for="number">
+                    <p>blah</p>
+                    <div>
+                        <div class="number">
+                            <span class="minus">-</span>
+                            <input type="text" value="1" />
+                            <span class="plus">+</span>
+                        </div>
+                        <button>Create</button>
+                    </div>
+                </label>
+            </div>
+        </form>
+    </main>
+</body>
+
 </html>

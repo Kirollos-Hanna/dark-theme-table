@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+body {
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    background-color: #171717;
+    height: 500px;
+    width: 800px;
+    border-bottom: 4px solid red;
+    border-radius: 5px;
+}
+
+/* header content styling */
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.header-content a, 
+.header-content h2 {
+    padding: 10px;
+}
+
+.header-content h2{
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.header-content a{
+    color: red;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: lighter;
+
+}
+
+/* action icons styling */
+
+.action-icons{
+    padding-left: 15px;
+}
+
+/* overall form styling */
+
+.create-tasks-form{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* left styling */
+
+.left{
+    display: flex;
+    flex-direction: column;
+}
+
+/* right styling */
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
+
+/* input styling */
+
+label{
+    padding: 10px;
+}
+
+label p{
+    padding-left: 3px;
+    padding-bottom: 15px;
+}
+
+.last-label div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-label p{
+    visibility: hidden;
+}
+
+.last-label input{
+    width: 100px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.last-label button{
+    width: 90px;
+    background-color: #171717;
+    color: white;
+    border: 2px solid red;
+    border-radius: 8px;
+    letter-spacing: 2px;
+}
+
+select,
+input{
+    width: 220px;
+    height: 30px;
+    background-color: #242424;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+select:hover,
+input:hover{
+    border: 2px solid red;
+    outline: none;
+}
+
+select:focus,
+input:focus{
+    border: 2px solid red;
+    outline: none;
+}
+
+
+.product i{
+    position: relative;
+    left: 6px;
+    vertical-align: middle;
+    z-index: 1;
+}
+
+.product input{
+    position: relative;
+    right: 20px;
+    padding-left: 25px;
+
+}
+
+.minus, .plus {
+    color: red;
+    position: relative;
+    padding: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.minus{
+    left: 20px;
+}
+
+.plus{
+    right: 20px;
+}

@@ -151,6 +151,25 @@ header .bell-icon {
     border-radius: 10px;
     padding: 2px;
     padding-left: 10px;
+    color: gray;
+}
+
+.search-bar input:focus{
+    border-radius: 10px;
+    border: 2px solid red;
+    outline: none;
+}
+
+.search-bar input:focus:hover {
+    border-radius: 10px;
+    border: 2px solid red;
+    outline: none;
+}
+
+.search-bar input:hover {
+    border-radius: 10px;
+    border: 2px solid red;
+    outline: none;
 }
 
 .search-bar button {
